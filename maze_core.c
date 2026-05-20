@@ -1,3 +1,4 @@
+// ソフトウェア工学 課題用修正1
 #include "maze.h"
 
 Maze *createMaze(int w, int h) {

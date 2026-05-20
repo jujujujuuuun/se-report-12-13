@@ -54,6 +54,7 @@ void freeMaze(Maze *maze) {
   free(maze);
 }
 
+// featureブランチでのテスト修正
 void drawMaze(const Maze *maze) {
   printf("\n");
   for (int y = 0; y < maze->height; y++) {

@@ -9,7 +9,7 @@ Maze *createMaze(int w, int h) {
   }
 
   // サイズを記録
-  maze->width = w;
+  maze->width = w; // ソフトウェア工学 課題用修正2
   maze->height = h;
 
   // プレイヤーの初期位置

@@ -13,8 +13,8 @@ Maze *createMaze(int w, int h) {
   maze->height = h;
 
   // プレイヤーの初期位置
-  maze->playerX = 1;
-  maze->playerY = 1;
+  maze->playerX = 1; // プレイヤーのX座標を１に
+  maze->playerY = 1; // プレイヤーのY座標を１に
 
   maze->map = (Cell **)malloc(sizeof(Cell *) * h);
   if (maze->map == NULL) {
